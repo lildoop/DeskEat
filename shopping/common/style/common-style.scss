@@ -1,0 +1,16 @@
+view{
+	box-sizing: border-box;
+}
+.pageBg{
+	background: 
+	linear-gradient(to bottom,transparent 0% ,#fff 400rpx),
+	linear-gradient(to right,#EED991 40%,#CCF7F4);
+	min-height: 80vh;
+}
+page {
+  min-height: 100vh;
+  background-color: #fff;
+  /* 自动预留 TabBar 高度 + 安全区域，永不遮挡 */
+  padding-bottom: calc(100rpx + env(safe-area-inset-bottom));
+  box-sizing: border-box;
+}

@@ -1,0 +1,114 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/user/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/user/buy/buy",
+			"style": {
+				"navigationBarTitleText": "点餐"
+			}
+		},
+		{
+			"path": "pages/user/order/order",
+			"style": {
+				"navigationBarTitleText": "订单"
+			}
+		},
+		{
+			"path": "pages/user/order/order-detail",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/user/order/confirm",
+			"style": {
+				"navigationBarTitleText": "确认订单"
+			}
+		},
+		{
+			"path": "pages/user/profile/profile",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/user/login/login",
+			"style": {
+				"navigationBarTitleText": "用户登录"
+			}
+		},
+		{
+			"path": "pages/user/shop/shop",
+			"style": {
+				"navigationBarTitleText": "我想开店"
+			}
+		},
+		{
+			"path": "pages/user/manager/managerLogin",
+			"style": {
+				"navigationBarTitleText": "管理员登录"
+			}
+		},
+		{
+			"path": "pages/user/manager/managerRegister",
+			"style": {
+				"navigationBarTitleText": "管理员注册"
+			}
+		},
+		{
+			"path": "pages/admin/index/index",
+			"style": {
+				"navigationBarTitleText": "商品管理"
+			}
+		},
+		{
+			"path": "pages/admin/order/order",
+			"style": {
+				"navigationBarTitleText": "订单信息"
+			}
+		},
+		{
+			"path": "pages/admin/order/order-detail",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/admin/shop/shop",
+			"style": {
+				"navigationBarTitleText": "店铺设置"
+			}
+		},
+		{
+			"path": "pages/admin/data/data",
+			"style": {
+				"navigationBarTitleText": "数据统计"
+			}
+		},
+		{
+			"path": "pages/admin/profile/profile",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "校园超市",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	// 👇 新增这一段，自动引入 uni-ui 组件
+	  "easycom": {
+	    "autoscan": true,
+	    "custom": {
+	      "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+	    }
+	  }
+}
